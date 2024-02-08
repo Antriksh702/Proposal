@@ -76,6 +76,16 @@ h1:hover{
     margin-left: 10%;
 }
 
+@media (max-width: 768px) {
+    .yes{
+        margin-top: 30%;
+    }
+
+    #no{
+        margin-top: 30%;
+    }
+}
+
 .my_btn{
     font-family: brush script mt, cursive;
     font-size: larger;
