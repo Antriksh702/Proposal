@@ -76,18 +76,6 @@ h1:hover{
     margin-left: 10%;
 }
 
-@media (max-width: 768px) {
-    .my_btn{
-        margin-top: 50px;
-        margin-right: 50px
-    }
-
-    .mybtnn{
-        margin-top: 50px;
-        margin-left: 50px;
-    }
-}
-
 .my_btn{
     font-family: brush script mt, cursive;
     font-size: larger;
@@ -142,6 +130,18 @@ h1:hover{
 .my_btnn:active{
     background-color: #f20044;
     color: white;
+}
+
+@media (max-width: 768px) {
+    .my_btn{
+        margin-top: 50px;
+        margin-right: 50px
+    }
+
+    .mybtnn{
+        margin-top: 50px;
+        margin-left: 50px;
+    }
 }
 
 .button-wrapper {
