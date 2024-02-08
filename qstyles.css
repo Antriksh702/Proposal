@@ -78,11 +78,13 @@ h1:hover{
 
 @media (max-width: 768px) {
     .yes{
-        margin-top: 30%;
+        margin-top: 60%;
+        margin-right: 20%
     }
 
     #no{
-        margin-top: 30%;
+        margin-top: 60%;
+        margin-left: 40%;
     }
 }
 
