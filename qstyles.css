@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: #0b1522;
+}
+
+h1{
+    position: absolute;
+    color: white;
+    font-family: luminari, fanatsy;
+}
+
+h1:hover{
+    transition: 0.3s;
+    color: #f20044;
+}
+
+.heart{
+    margin-bottom: 15%;
+    height: 70px;
+    width: 70px;
+    background: #f20044;
+    position: relative;
+    transform: rotate(-45deg);
+    box-shadow: -10px 10px 90px #f20044;
+    animation: heart 0.6s linear infinite;
+}
+@keyframes heart{
+    0%{
+        transform: rotate(-45deg) scale(1.07);
+    }
+    80%{
+        transform: rotate(-45deg) scale(1.0);
+    }
+    100%{
+        transform: rotate(-45deg) scale(0.8);
+    }
+}
+
+.heart:before{
+    content: '';
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background: #f20044;
+    top: -50%;
+    border-radius:50px;
+    box-shadow: -10px -10px 90px #f20044;
+}
+
+.heart:after{
+    content: '';
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background: #f20044;
+    right: -50%;
+    border-radius:50px;
+    box-shadow: 10px 10px 90px #f20044;
+}
+
+.yes{
+    position: absolute;
+    margin-top: 10%; 
+    margin-right: 5%;
+}
+
+#no{
+    position: absolute;
+    margin-top: 10%; 
+    margin-left: 10%;
+}
+
+.my_btn{
+    font-family: brush script mt, cursive;
+    font-size: larger;
+    color: white;
+    background-color: #f20044;
+    padding: 10px 20px;
+    border-width: 3px;
+    border-color: #f20044;
+    border-radius: 20px;
+    box-shadow: 3px 3px orchid;
+}
+
+.my_btn:hover{
+    transition: 0.3s;
+    background-color: white;
+    color: #f20044
+}
+
+.my_btn:focus{
+    transition: 0.3s;
+    box-shadow: 0 0 0 3px orchid;
+}
+
+.my_btn:active{
+    background-color: #f20044;
+    color: white;
+}
+
+.my_btnn{
+    font-family: brush script mt, cursive;
+    font-size: larger;
+    color: white;
+    background-color: #f20044;
+    padding: 10px 20px;
+    border-width: 3px;
+    border-color: #f20044;
+    border-radius: 20px;
+    box-shadow: 3px 3px orchid;
+}
+
+.my_btnn:hover{
+    transition: 0.3s;
+    background-color: white;
+    color: #f20044
+}
+
+.my_btnn:focus{
+    transition: 0.3s;
+    box-shadow: 0 0 0 3px orchid;
+}
+
+.my_btnn:active{
+    background-color: #f20044;
+    color: white;
+}
+
+.button-wrapper {
+    position: relative;
+    width:200px;
+    height:60px;
+  }
+  .button-wrapper canvas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+  }
+  
