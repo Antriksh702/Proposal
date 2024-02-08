@@ -77,12 +77,12 @@ h1:hover{
 }
 
 @media (max-width: 768px) {
-    .yes{
+    .my_btn{
         margin-top: 50px;
         margin-right: 50px
     }
 
-    #no{
+    .mybtnn{
         margin-top: 50px;
         margin-left: 50px;
     }
